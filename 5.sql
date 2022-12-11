@@ -1,3 +1,18 @@
+/*
+Redarging this question i have created a table where it has columns as eid,ename,mid where eid is employee id and mid 
+is the manager id.
+
+
+I have written this sql query to show heirarchy from the employee id 
+which  we have to set it in the code 
+
+for example if we give employee id as 6 
+
+it shows simran reports to mahesh, mahesh reports to bro , and the bro is superior authority
+
+*/
+
+
 use a1;
 drop table employee;
 create table employee(
