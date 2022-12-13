@@ -41,5 +41,3 @@ insert into @temp_type_table_1 values(2,'meghanath',500000);
 exec emp_proc @temp_type_table_1
 
 select * from employees;
-
-f
